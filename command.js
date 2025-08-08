@@ -8,7 +8,7 @@ const commands = [
 ];
 
 const rest = new REST({ version: "10" }).setToken(
-  "MTQwMTk3MTU1NzE4NTg4NDIwMA.G2ahvI.3Sk0UKpKy4yDgWSvyQNk4CVbzimlFwPTViE0-0"
+  "YOUR_CLIENT_ID"
 );
 
 try {
@@ -24,3 +24,4 @@ try {
 }
 
 export { commands };
+
